@@ -1,0 +1,20 @@
+#left {
+  font-size: 67px;
+}
+
+#right {
+  font-size: 67px;
+}
+
+#ball {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 70px;
+  position: absolute;
+  top: 600px;
+}
+
+body {
+  background-color: black;
+}
