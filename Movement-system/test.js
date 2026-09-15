@@ -6,9 +6,11 @@ const ball = document.getElementById("ball");
 let posX = 9; /* changeable */
 
 leftbtn.onclick = function() {
-ball.style.left -= 10 + "px";
+posX -= 10
+ball.style.left = posX + "px";
 };
 
 rightbtn.onclick = function() {
-ball.style.left += 10 + "px";
+posX += 10
+ball.style.left = posX + "px";
 };
